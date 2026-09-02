@@ -26,6 +26,12 @@
 
 Data is retrieved from the **World Bank Open Data API**.
 
+Key calculations:
+
+- Trade Balance = Exports − Imports
+- Regional Average = Mean of available country values
+- Relative Difference = (Highest − Lowest) / |Lowest| × 100
+
 ## Tech Stack
 
 * Python
