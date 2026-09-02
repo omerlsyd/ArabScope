@@ -1,27 +1,47 @@
 # ArabScope
 
-An interactive economic data dashboard focused on Arab countries, built with Python and Streamlit.
+**ArabScope** is an interactive economic data platform for exploring, comparing, and analyzing key economic indicators across Arab countries.
 
 ## Features
 
-* Arab countries economic data
-* Interactive charts and visualizations
-* Data exploration and comparison
-* Simple and user-friendly interface
+* **Country Profiles** — Explore economic indicators and historical data for individual Arab countries.
+* **Country Comparison** — Compare multiple countries across economic indicators.
+* **Regional Analysis** — Analyze rankings, regional averages, comparisons, and trends.
+* **Economic Insights** — Identify highest/lowest values and relative differences.
 
-## Technologies
+## Economic Indicators
+
+* GDP
+* GDP Growth
+* GDP per Capita
+* Inflation
+* Population
+* Exports & Imports
+* Trade Balance
+* Agriculture
+* Industry
+* Services
+
+## Methodology
+
+Data is retrieved from the **World Bank Open Data API**.
+
+## Tech Stack
 
 * Python
 * Streamlit
-* Data Visualization
+* Pandas
+* Requests
+* World Bank Open Data API
 
-## Run Locally
+## Data Source
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+**World Bank Open Data**
 
-## Author
+## Project Purpose
 
-**Omar Ehab**
+ArabScope is an educational analytical project focused on understanding economic differences and trends across the Arab region.
+
+## Limitations
+
+Results depend on the availability, coverage, and quality of data provided by the World Bank.
